@@ -11,3 +11,9 @@ jobs:
       - uses: ricardochaves/python-lint@master
         with:
           python-root-list: "tests"
+          use-mypy: true
+          use-black: true
+          use-isort: true
+          use-pylint: true
+          use-flake8: true
+          use-pycodestyle: true
